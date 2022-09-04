@@ -12,6 +12,63 @@ font-family: 'Roboto', sans-serif;
 }
 
 .navbar .navbar-brand {
+    
     font-size: 24px;
+}
+
+
+.hero {
+    text-align: center;
+    background-color: #E4F1FE;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 96px;
+}
+
+.hero h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    padding-top: 150px;
+}
+
+.hero h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.hero a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding: 10px 25px;
+    border-radius: 4px;
+    background-color: #34495E;
+    color: white;
+    text-decoration: none;
+}
+
+.hero .get-started-btn {
+    padding-bottom: 150px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    opacity: 60%;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.hero img {
+    padding: 20px 0px;
+    max-width: 400px;
+}
+
+@media (max-width: 800px) {
+    h1 {  
+        font-size: 50px;
+    }
+
 }
 
