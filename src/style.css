@@ -3,10 +3,17 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Josefin Sans', sans-serif;
+    --primary-color: #34495E;
+    --secondary-color: #E4F1FE;
+}
+
 .navbar {
-    background-color: #34495E;
+    background-color: var(--primary-color);
     color: white;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 24px;
     font-weight: bold;
 }
@@ -18,31 +25,31 @@ font-family: 'Roboto', sans-serif;
 
 .hero {
     text-align: center;
-    background-color: #E4F1FE;
+    background-color: var(--secondary-color);
 }
 
 h1 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 96px;
 }
 
 .hero h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     font-size: 32px;
     padding-top: 150px;
 }
 
 .hero h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     font-size: 24px;
 }
 
 .hero a {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     font-size: 24px;
     padding: 10px 30px;
     border-radius: 4px;
-    background-color: #34495E;
+    background-color:var(--primary-color);
     color: white;
     text-decoration: none;
 }
@@ -52,7 +59,7 @@ h1 {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     font-size: 24px;
     opacity: 60%;
     padding-bottom: 25px;
