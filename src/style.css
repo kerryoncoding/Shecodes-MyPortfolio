@@ -11,8 +11,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
-.navbar .navbar-brand {
-    
+.navbar .navbar-brand {  
     font-size: 24px;
 }
 
@@ -41,7 +40,7 @@ h1 {
 .hero a {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    padding: 10px 25px;
+    padding: 10px 30px;
     border-radius: 4px;
     background-color: #34495E;
     color: white;
@@ -56,19 +55,22 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     opacity: 60%;
-    padding-top: 40px;
     padding-bottom: 25px;
 }
 
 .hero img {
-    padding: 20px 0px;
+    padding: 50px 0px;
     max-width: 400px;
+    margin: 0 auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     h1 {  
         font-size: 50px;
     }
 
+    .hero h3 {
+        padding: 50px 0;
+    }
 }
 
