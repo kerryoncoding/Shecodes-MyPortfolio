@@ -139,8 +139,7 @@ p {
     list-style: none;
     line-height: 40px;
     font-family: var(--primary-font);
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 
 .about-hero a {
@@ -171,21 +170,31 @@ p {
         max-width: 100px;
     }
 
+    .about-hero h1 {
+        font-size: 50px;
+    }
+
     .hero h3 {
         padding: 50px 0;
     }
 
-        .skill-list {
-            text-align: center;
-        }
-    
-        .skills ul {
-            margin: 0px;
-            list-style: none;
-            line-height: 40px;
-            font-family: var(--primary-font);
-            font-size: 20px;
-            padding-bottom: 0px;
-        }
+    .skill-list {
+        text-align: center;
+    }
+
+    .skills ul {
+        margin: 0px;
+        list-style: none;
+        line-height: 40px;
+        font-family: var(--primary-font);
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
 }
 
+@media (max-width: 992px) {
+    .about-blurb {
+            text-align: center;
+        }
+
+}
