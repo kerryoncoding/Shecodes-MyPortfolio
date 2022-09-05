@@ -82,7 +82,7 @@ p {
     padding-bottom: 80px;
 }
 
-.about-hero h1 {
+.header-text {
     font-size: 70px;
     font-weight: bold;
     padding-top: 100px;
@@ -170,8 +170,12 @@ p {
         max-width: 100px;
     }
 
-    .about-hero h1 {
+    .header-text {
         font-size: 50px;
+    }
+
+    .about-image {
+        padding: 0px 40px;
     }
 
     .hero h3 {
