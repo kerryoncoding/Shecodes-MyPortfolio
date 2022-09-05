@@ -182,13 +182,14 @@ p {
         text-align: center;
     }
 
-    .skills ul {
+    .skills .skill-list ul {
         margin: 0px;
         list-style: none;
         line-height: 40px;
         font-family: var(--primary-font);
         font-size: 20px;
         padding-bottom: 0px;
+        padding-left: 0px;
     }
 }
 
