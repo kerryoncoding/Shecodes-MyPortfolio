@@ -65,11 +65,16 @@ p {
     padding-bottom: 25px;
 }
 
-.hero img {
+.welcome-image {
     padding: 50px 0px;
-    max-width: 400px;
     margin: 0 auto;
+    max-width: 400px;
 }
+
+.hero img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    }
 
 .about-hero {
     text-align: center;
@@ -141,6 +146,12 @@ p {
 @media (max-width: 768px) {
     h1 {  
         font-size: 50px;
+    }
+
+    .welcome-image {
+        padding: 10px 0px;
+        margin: 0 auto;
+        max-width: 100px;
     }
 
     .hero h3 {
