@@ -79,7 +79,7 @@ p {
 .about-hero {
     text-align: center;
     background-color: var(--secondary-color);
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 }
 
 .about-hero h1 {
@@ -105,25 +105,42 @@ p {
 }
 
 .about-image {
-    padding: 0px 50px;
+    padding: 0px 80px;
 }
 
 #about-image {
     border-radius: 20px;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
 }
+
+.about-blurb {
+    text-align: left;
+}
+
+.about-blurb .shecodes-link {
+    text-decoration: none;
+    color: #885DF1;
+    background-color: var(--secondary-color);
+    padding: 0px 5px;
+    opacity: 100%
+}
+
 .skills {
-    padding-top: 50px;
     max-width: 900px;
+}
+
+.skill-list {
+    text-align: left;
+    padding-bottom: 50px;
 }
 
 .skills ul {
     margin-left: 120px;
- list-style: none;
- line-height: 40px;
- font-family: var(--primary-font);
- font-size: 20px;
- padding-bottom: 50px;
+    list-style: none;
+    line-height: 40px;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    
 }
 
 .about-hero a {
@@ -157,5 +174,18 @@ p {
     .hero h3 {
         padding: 50px 0;
     }
+
+        .skill-list {
+            text-align: center;
+        }
+    
+        .skills ul {
+            margin: 0px;
+            list-style: none;
+            line-height: 40px;
+            font-family: var(--primary-font);
+            font-size: 20px;
+            padding-bottom: 0px;
+        }
 }
 
