@@ -99,6 +99,14 @@ p {
     opacity: 70%;
 }
 
+.about-image {
+    padding: 0px 50px;
+}
+
+#about-image {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
 .skills {
     padding-top: 50px;
     max-width: 900px;
