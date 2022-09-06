@@ -7,6 +7,7 @@ font-family: 'Roboto', sans-serif;
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Josefin Sans', sans-serif;
     --primary-color: #34495E;
+    /*--primary-darker: #22313F; not used */
     --secondary-color: #E4F1FE;
 }
 
