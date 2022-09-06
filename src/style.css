@@ -167,12 +167,14 @@ p {
 
 .project-link {
     text-decoration: none;
-    color: var(--primary-color);
+    color: rgb(0, 0, 255);
+    
 }
 
 .project-link:hover {
     text-decoration: underline;
-    color: rgb(0, 0, 255);
+    color: var(--primary-color);
+    
 }
 
 @media (max-width: 768px) {
