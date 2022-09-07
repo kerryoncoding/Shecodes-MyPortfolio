@@ -178,6 +178,22 @@ p {
     
 }
 
+
+.social {
+    margin: 50px 100px;
+    font-size: 30px;
+}
+
+.social-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     h1 {  
         font-size: 50px;
