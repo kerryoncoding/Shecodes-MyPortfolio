@@ -166,15 +166,14 @@ p {
     padding: 50px 30px;
 }
 
-.project-link {
+.project-link, .myemail, .social-link {
     text-decoration: none;
-    color: rgb(0, 0, 255);
-    
+    color: rgb(0, 0, 200);    
 }
 
-.project-link:hover {
+.project-link:hover, .myemail:hover, .social-link:hover {
     text-decoration: underline;
-    color: var(--primary-color);
+    color: #22313F;
     
 }
 
@@ -184,15 +183,6 @@ p {
     font-size: 30px;
 }
 
-.social-link {
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-.social-link:hover {
-    color: rgb(0, 0, 255);
-    text-decoration: underline;
-}
 
 @media (max-width: 768px) {
     h1 {  
