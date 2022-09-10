@@ -93,11 +93,13 @@ p {
 .about-hero h2 {
     font-size: 30px;
     padding-bottom: 50px;
+    font-family: var(--primary-font);
 }
 
 .about-hero h3 {
     font-size: 30px;
     opacity: 70%;
+    font-family: var(--primary-font);
 }
 
 .about-hero p {
@@ -166,21 +168,38 @@ p {
     padding: 50px 30px;
 }
 
-.project-link, .myemail, .social-link {
+.project-link, .myemail {
     text-decoration: none;
     color: rgb(0, 0, 200);    
 }
 
-.project-link:hover, .myemail:hover, .social-link:hover {
+.project-link:hover, .myemail:hover{
     text-decoration: underline;
     color: #22313F;
     
 }
 
 
+.social-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+
+.social-link:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: var(--primary-color);
+    padding: 10px 18px;
+    border-radius: 50%;
+    }
+
+
 .social {
     margin: 50px 100px;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 
