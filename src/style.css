@@ -212,6 +212,13 @@ p {
     font-size: 36px;
 }
 
+.open-source {
+    font-family: var(--primary-font);
+    background-color: var(--secondary-color);
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
 
 @media (max-width: 768px) {
     h1 {  
