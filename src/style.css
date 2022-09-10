@@ -145,15 +145,27 @@ p {
     font-size: 20px;    
 }
 
-.about-hero a {
-        font-family: var(--primary-font);
-        font-size: 24px;
-        padding: 10px 30px;
-        border-radius: 4px;
-        background-color: var(--primary-color);
-        color: white;
-        text-decoration: none;
+.primary-btn {
+    font-family: var(--primary-font);
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
 }
+
+
+.primary-btn:hover {
+    border-radius: 4px;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: white;
+    text-decoration: none;
+
+}
+
+
 
 .certification {
     text-align: center;
@@ -168,17 +180,15 @@ p {
     padding: 50px 30px;
 }
 
-.project-link, .myemail {
+.project-link {
     text-decoration: none;
     color: rgb(0, 0, 200);    
 }
 
-.project-link:hover, .myemail:hover{
+.project-link:hover {
     text-decoration: underline;
-    color: #22313F;
-    
+    color: #22313F;   
 }
-
 
 .social-link {
     text-decoration: none;
@@ -198,7 +208,7 @@ p {
 
 
 .social {
-    margin: 50px 100px;
+    margin: 70px 100px;
     font-size: 36px;
 }
 
