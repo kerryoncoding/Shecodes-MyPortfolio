@@ -19,8 +19,13 @@ font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
-.navbar .navbar-brand {  
+.navbar .navbar-brand {
+    margin-left: 20px;  
     font-size: 24px;
+}
+
+.logo {
+    width: 34px;
 }
 
 
@@ -170,6 +175,12 @@ p {
 .certification {
     text-align: center;
     background-color: var(--secondary-color);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.pmp {
+    text-align: center;
     padding-top: 30px;
     padding-bottom: 50px;
 }
